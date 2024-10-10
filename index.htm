@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="http://hdqwalls.com/wallpapers/zootopia-movie-wide.jpg"
+      type="image/x-icon"
+    />
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#work">Travail</a></li>
+          <li><a href="#resume">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>Découvrez mes projets et mon parcours professionnel.</p>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/qUmw4as43Uw?si=0pCG9-fln9ePpNP8"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section id="about">
+        <h2>À propos de moi</h2>
+        <img src="http://hdqwalls.com/wallpapers/zootopia-movie-wide.jpg" width="200" height="200">
+      
+      
+        <p>
+          Je suis un développeur web passionné par la création de sites et
+          d'applications web.
+        </p>
+        <ul>
+          <li>Compétence 1: Développement Frontend</li>
+          <li>Compétence 2: Développement Backend</li>
+          <li>Compétence 3: Gestion de projets</li>
+        </ul>
+      </section>
+
+      <section id="work">
+        <h2>Mes Projets</h2>
+        <ul>
+          <li>
+            <strong>Projet 1</strong>: Un site e-commerce développé avec HTML,
+            CSS et JavaScript.
+          </li>
+          <li>
+            <strong>Projet 2</strong>: Une application web de gestion de tâches
+            avec React.
+          </li>
+          <li>
+            <strong>Projet 3</strong>: Un blog personnel utilisant un CMS.
+          </li>
+        </ul>
+      </section>
+
+      <section id="resume">
+        <h2>Mon CV</h2>
+        <p>Téléchargez mon CV ci-dessous :</p>
+        <a href="cv.pdf" download>Télécharger mon CV</a>
+      </section>
+
+      <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="submit_form.php" method="POST">
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Mon Nom. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
